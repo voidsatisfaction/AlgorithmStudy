@@ -80,55 +80,55 @@
 ## 대표적인 선형 자료구조와 비선형 자료구조의 예 
 
 1. 배열(Array)
+  
+    - 순서대로 번호가 붙은 원소들이 연속적인 형태로 구성된 구조.
+
+    - fetch = O(1) / store = O(n)
 
 `data = [1,2,3,4,5]`
-  
-  - 순서대로 번호가 붙은 원소들이 연속적인 형태로 구성된 구조.
-
-  - fetch = O(1) / store = O(n)
 
 2. 연관배열(Associative Array)
 
+    - 배열의 index(integer) 대신 key(string or symbol)
+
+    - map, symbol table, dictionary, hash 라고도 함.
+
+
 ```js
-data =
-{
+  data = {
     "Pride and Prejudice": "Alice",
     "Wuthering Heights": "Alice",
     "Great Expectations": "John"
-}
+  }
 
-EX)
-data["Greate Expectations"] // "John"
-data["Pride and Prejudice"] // "Alice" 
+  EX)
+  data["Greate Expectations"] // "John"
+  data["Pride and Prejudice"] // "Alice" 
 ```
-
-  - 배열의 index(integer) 대신 key(string or symbol)
-
-  - map, symbol table, dictionary, hash 라고도 함.
 
 3. [리스트](https://namu.wiki/w/%EC%97%B0%EA%B2%B0%20%EB%A6%AC%EC%8A%A4%ED%8A%B8)(List)
 
+    - 순열 이라고도 불리며, 순서를 가지고 일렬로 나열한 원소들의 모임.
+
+    - 종류로는 순차 리스트 / 연결 리스트(단순 연결 리스트 / 이중 연결 리스트 / 원형 연결 리스트) 등이 있다.
+
+    - fetch = O(n) / store = O(1)
+
 ![리스트](http://cfile10.uf.tistory.com/image/1834F84B4F17A790121531)
-
-  - 순열 이라고도 불리며, 순서를 가지고 일렬로 나열한 원소들의 모임.
-
-  - 종류로는 순차 리스트 / 연결 리스트(단순 연결 리스트 / 이중 연결 리스트 / 원형 연결 리스트) 등이 있다.
-
-  - fetch = O(n) / store = O(1)
 
 4. [스택](https://en.wikipedia.org/wiki/Stack_(abstract_data_type))(Stack)
 
+    - Last In First Out
+
+    - 재귀함수
+
 ![스택](https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Lifo_stack.png/350px-Lifo_stack.png)
-
-  - Last In First Out
-
-  - 재귀함수
 
 5. [큐](https://en.wikipedia.org/wiki/Queue_(abstract_data_type))(Quene)
 
-![큐](https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Data_Queue.svg/300px-Data_Queue.svg.png)
+    - First In First Out
 
-  - First In First Out
+![큐](https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Data_Queue.svg/300px-Data_Queue.svg.png)
 
 6. [트리](https://en.wikipedia.org/wiki/Tree_(data_structure))(Tree)
 
