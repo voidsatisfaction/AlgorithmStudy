@@ -18,6 +18,47 @@ using namespace std;
 /*
  * 
  */
+class Node{
+public:
+    int data;
+    Node *tail;
+};
+class LinkedList{
+    Node *listhead;
+    Node *tempnode;
+    void add(int data){
+        Node *temp = new Node();
+        temp->data = data;
+        if(listhead == NULL){
+            listhead == temp;
+        }else{
+            tempnode = listhead;
+            while(tempnode->tail != NULL){
+            tempnode = tempnode->tail;
+            }
+            tempnode->tail = temp;
+        }
+    }
+    void del(int num){
+        if(num == 1){
+            delete listhead;
+            listhead = NULL;
+        }else{
+            Node *temptemp;
+            tempnode = listhead;
+        
+            for(int i=0;i<num-2;i++){
+            tempnode = tempnode->tail;
+            if(tempnode->tail->tail == NULL){
+                return;
+            }
+        }
+        temptemp = tempnode->tail;
+        tempnode->tail = tempnode->tail->tail;
+        delete temptemp;
+    }
+};
+
 int main(int argc, char** argv) {
 
     return 0;
