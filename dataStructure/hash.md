@@ -94,6 +94,7 @@ A : 0 2 1 2 1 2 0 0 1 1
   
 관련 문제 : https://www.acmicpc.net/problem/10989  
   
+교훈 : 충분한 메모리가 주어지기만 하면 빠른 계산이 가능하다. 역으로, 메모리가 제한되어 있으면 효율적인 알고리즘을 생각해야만 한다. (금수저 흙수저..?)
   
 [1]https://ko.wikipedia.org/wiki/해시_함수  
 [2]http://hsp1116.tistory.com/35
