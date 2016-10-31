@@ -91,5 +91,9 @@ A : 0 2 1 1 1 2 0 0 1 1
 A : 0 2 1 2 1 2 0 0 1 1  
   
 출력: 1 1 2 3 3 4 5 5 8 9  
+  
+관련 문제 : https://www.acmicpc.net/problem/10989  
+  
+  
 [1]https://ko.wikipedia.org/wiki/해시_함수  
 [2]http://hsp1116.tistory.com/35
