@@ -79,6 +79,8 @@ void calc(int n){
 
  int main(void){
 	calc(100000000);
-
+	//fib1 = uncountable
+	//fib2 = 0.98ms
+	//fib3 = 0ms(uncountable alse)
 	return 0;
 }
