@@ -4,9 +4,14 @@
 
 using namespace std;
 
+
 unsigned long long fib1(unsigned long long  n){
 	if(n <= 2) return 1;
-	else return fib1(n-1)+fib1(n-2);
+	else if(dp[n]) return dp[n]
+	else {
+		dp[n] = fib1(n-1)+fib1(n-2);
+		return dp[n];
+	}
 }
 
 unsigned long long  fib2(unsigned long long  n){
