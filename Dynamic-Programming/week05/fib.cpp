@@ -22,44 +22,6 @@ unsigned long long  fib2(unsigned long long  n){
 	return temp;
 }
 
-//unsigned long long * mul(unsigned long long a[], unsigned long long b[]){
-//	static unsigned long long c[4] = {0,0,0,0};
-//	c[0] = a[0]*b[0] + a[1]*b[2];
-//	c[1] = a[0]*b[1] + a[1]*b[3];
-//	c[2] = a[2]*b[0] + a[3]*b[2];
-//	c[3] = a[2]*b[1] + a[3]*b[3];
-//	return c;
-//}
-//
-//unsigned long long * pow(unsigned long long a[], int n){
-//	static unsigned long long b[4] = {1,0,0,1};
-//	unsigned long long *pb, *pa;
-//	while(n>0){
-//		if(n&1){  
-//			pb = mul(a, b);
-//			for(int i=0; i<4;i++){
-//				b[i] = pb[i];
-//			}
-//		}
-//		pa = mul(a,a);
-//		for(int i=0; i<4;i++){
-//			a[i] = pa[i];
-//		}
-//		n >>= 1;
-//	}
-//	return b;
-//}
-
-//unsigned long long  fib3(int n){
-//	unsigned long long a[4] = {1,1,1,0};
-//	unsigned long long *pa;
-//	pa = pow(a, n+1);
-//
-//	return pa[3];
-//}
-
-#include <math.h>
-
 typedef unsigned long long ull;
 
 ull* mul(ull a[], ull b[]){ 
@@ -75,24 +37,14 @@ ull pow(ull a[], int n){
 	ull *b = new ull[4] ;
 	b[0] = 1;b[1]=0;b[2]=0;b[3]=1;
 
-	/*ull* pb = new ull[4];
-	ull* pa = new ull[4];*/
 
 	while(n>0){
 		if(n&1){  
 			b = mul(a, b);
-			/*for(int i=0; i<4;i++){
-				b[i] = pb[i];
-			}*/
 		}
 		a = mul(a,a);
-		/*for(int i=0; i<4;i++){
-			a[i] = pa[i];
-		}*/
 		n >>= 1;
 	}
-	//delete [] pa;
-	//delete [] pb;
 	ull result = b[3];
 
 	delete [] b;
@@ -101,8 +53,6 @@ ull pow(ull a[], int n){
 
 ull  fib(int n){
 	ull a[4] = {1,1,1,0};
-	//ull* a = new ull[4];
-	//a[0] =1;a[1] =1;a[2] =1;a[3] =0;
 	return pow(a,n+1);
 }
 
@@ -131,8 +81,5 @@ void calc(int n){
 
  int main(void){
 	calc(30);
-	//fib1 = uncountable
-	//fib2 = 0.98ms
-	//fib3 = 0ms(uncountable alse)
 	return 0;
 }
