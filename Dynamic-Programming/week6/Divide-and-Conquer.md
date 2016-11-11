@@ -13,8 +13,8 @@
 ###Recurrence Equation
 재귀적 알고리즘은 recurrence equation으로 계산량을 표현할 수 있다. (재귀적 알고리즘이란, 재귀함수를 이용한다는 것이 아니라 recursive하다는 것)  
 Recurrence equation은 다음과 같은 형식을 가진다.  
-<img src="./fig/eq1.png" width="400px" height="60px">  
+<img src="./fig/eq1.png" height="60px">  
 
 merge sortd의 경우는,  
 
-<img src="./fig/eq2.png" width="400px" height="60px">
+<img src="./fig/eq2.png" height="60px">
