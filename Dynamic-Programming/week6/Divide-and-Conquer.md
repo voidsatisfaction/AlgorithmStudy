@@ -15,6 +15,8 @@
 Recurrence equation은 다음과 같은 형식을 가진다.  
 <img src="./fig/eq1.png" height="60px">  
 
-merge sortd의 경우는,  
+merge sort의 경우는,  
 
 <img src="./fig/eq2.png" height="60px">
+  
+##The maximum-subarray problem
