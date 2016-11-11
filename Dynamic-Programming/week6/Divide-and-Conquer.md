@@ -59,7 +59,6 @@ Function FNID-MAX-CROSSING-SUBARRAY(A, low, mid, high)
 			right_sum = sum
 			max_right = j
 	return (max_left, max_right, left_sum + right_sum)
-
 ```
 
 우리는 maximum subarray가 mid를 지난다는 것을 가정하고 있다. 그러므로 mid에서부터 low까지 검사하면서 합이 최대가 되는 지점, mid에서부터 high까지 합이 최대가 되는 지점을 각각 구해 합치면 maximum subarray가 구해진다. 이는 선형시간 안에 종료된다.  
@@ -84,5 +83,4 @@ Function FIND-MAXIMUM-SUBARRAY(A, low, high)
 			return (rgiht_low, right_high, right_sum)
 		else
 			return (cross_low, cross_high, cross_sum)
-			
 ```
