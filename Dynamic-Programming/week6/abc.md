@@ -1,5 +1,6 @@
 #계산량 분석
 재귀적 알고리즘의 계산량은 recurence equation으로 나타낼 수 있다. Recurrence equation은 다음과 같은 꼴의 식을 말한다.  
+
 <img src="./fig/eq1.png" height="60px">
 
 Recurrence equation이 주어졌을 때 T를 구하는 방법에는 다음 세 가지가 있다.
@@ -34,3 +35,6 @@ substitution method는 옳은 추측을 할 수 있을 때만 사용할 수 있�
 **Example.**  
 T(n) = 3T(n/4) + O(n^2)이 주어졌을 때 recursion tree를 그려보자.  
 T(n) = 3T(n/4) + cn^2으로 놓아도 문제가 없다.  
+
+<img src="./fig/rt1.png">  
+<img src="./fig/rt2.png">
