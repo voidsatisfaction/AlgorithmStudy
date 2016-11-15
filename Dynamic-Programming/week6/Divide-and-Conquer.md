@@ -84,3 +84,6 @@ Function FIND-MAXIMUM-SUBARRAY(A, low, high)
 		else
 			return (cross_low, cross_high, cross_sum)
 ```
+###계산량
+T(n)=2T(n/2)+O(n)  
+T(n)=O(nlogn) ([계산량분석.md](https://github.com/kdrl/AlgorithmStudy/blob/master/Dynamic-Programming/week6/계산량분석.md) 참조)
