@@ -14,4 +14,4 @@ f(i)를 구하기 위해 f(i-2)를 이용할지, f(i-3)를 이용할지 선택�
 직관적으로는 볼록함수의 극점을 찾는 문제를 생각할 수 있다. 볼록함수는 국소적 해가 전역적 해와 같으므로 gradient descent를 이용해 최적해를 구할 수 있다.  
 또 다른 예로는 다익스트라 알고리즘이 있다. 다익스트라알고리즘은 매 순간 subproblem의 해와 관계없이 cost가 최소인 경로만을 선택한다.  
   
-0-1 knapsack problem vs Fractional knapsack problem
+(DP)0-1 knapsack problem vs (DP, Greedy)Fractional knapsack problem
