@@ -3,17 +3,17 @@
 using namespace std;
 
 int main(){
-	//Àß¸øµÈ ÀÔ·Â¹æ¹ı? 
-	//int secret[5001] = {0,}; //5000ÀÚÀÇ ¾ÏÈ£°¡ ¿Íµµ 5001¹øÂ° ÀÚ¸®¿¡ \0ÀÌ µé¾î°¡¾ß ÇÏ±â¶§¹®¿¡ 5001°³
-	//int result[5000] = {0,}; //result[n] : secret[0]ºÎÅÍ[n]±îÁö·Î ÀÌ·ç¾îÁø secretÀÇ ºÎºĞÁıÇÕÀÇ ÇØ¼®°¡´ÉÇÑ °¡Áş¼ö
+	//ì˜ëª»ëœ ì…ë ¥ë°©ë²•? 
+	//int secret[5001] = {0,}; //5000ìì˜ ì•”í˜¸ê°€ ì™€ë„ 5001ë²ˆì§¸ ìë¦¬ì— \0ì´ ë“¤ì–´ê°€ì•¼ í•˜ê¸°ë•Œë¬¸ì— 5001ê°œ
+	//int result[5000] = {0,}; //result[n] : secret[0]ë¶€í„°[n]ê¹Œì§€ë¡œ ì´ë£¨ì–´ì§„ secretì˜ ë¶€ë¶„ì§‘í•©ì˜ í•´ì„ê°€ëŠ¥í•œ ê°€ì§“ìˆ˜
 	//char c;
 	//int len=0; 
 	//while((c=getchar()) != '\n'){
-	//	secret[len] = c - 48;
+	//	secret[len] = c - '0';
 	//	len++;
 	//}
 
-	//ÀÔ·Â
+	//ì…ë ¥
 	char secret[5001];
 	int secret2[5001];
 	int result[5000];
@@ -24,7 +24,7 @@ int main(){
 		len++;
 	}
 	
-	// °è»ê
+	// ê³„ì‚°
 	result[0] = 1;
 
 	int temp1 = secret2[0]*10 + secret2[1];
@@ -43,7 +43,7 @@ int main(){
 		if(result[i]>1000000) result[i] = result[i]%1000000;
 	}
 	
-	//Ãâ·Â
+	//ì¶œë ¥
 	cout<<result[len-1];
 	return 0;
 }
