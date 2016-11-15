@@ -70,11 +70,21 @@ T2 : 9.9e-05
 Program ended with exit code: 0
 ```
 ##언제 동적계획법을 써야 하는가?
-###계단오르기
 
 ###동적계획법의 요소
 
 1. Optimal structure
 2. Overlapping subproblems
 
-Optimal structure란, divide-and-conquer에서와 같이 주어진 문제의 해가 그 문제의 부분문제들의 해를 포함하는 것을 말한다.
+Optimal structure란, divide-and-conquer에서와 같이 주어진 문제의 해가 그 문제의 부분문제들의 해를 포함하는 것을 말한다.  
+Overlapping subproblems란, 재귀적 알고리즘이 같은 subproblem을 반복해서 풀게 되는 경우를 말한다.  
+  
+**Example. 계단오르기**  
+계단 i에 도달하는 점수의 최댓값을 f(i)라고 하면, 다음의 두 가지 경우로 나뉜다.   
+
+1. i-1번째 계단을 밟지 않은 경우
+2. i-2번째 계단을 밟지 않은 경우
+
+따라서, f(i) = max(f(i-2) + point(i), f(i-3) + point(i-1) + point(i))  
+즉 f(i)는 f(i-2)와 f(i-3)을 풂으로써 얻어질 수 있다. 이를 optimal structure라고 한다.  
+한 편, f(i-1) = max(f(i-3) + point(i-1), f(i-4) + point(i-2) + point(i-1))이므로 f(i)과 f(i-1)을 구할 때 공통적으로 f(i-3)이 필요하다. 이를 overlapping subproblem이라고 한다.
