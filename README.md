@@ -6,7 +6,7 @@
 
 - 연규민(교토대학 경제4) : `puts "Hello World!"`
 
-- 김기욱(교토대학 정보3) : (자기소개)
+- 김기욱(교토대학 정보3) : https://github.com/kdrl
 
 - 우정우(교토대학 정보2) : (자기소개)
 
@@ -30,9 +30,10 @@
 
     - [스파게티 code C++](http://www.prefield.com/algorithm/)
 
-2. PS : 탑코더 문제풀이(풀어온다) (18:45 ~ 19:15)
+2. PS : 탑코더 or BOJ 문제풀이(풀어온다) (18:45 ~ 19:15)
 
     - [탑코더 문제 archive](https://community.topcoder.com/stat?c=problem_statement&pm=13885)
+    - [BOJ](https://www.acmicpc.net)
 
 자신이 푼 문제는 깃허브 해당 스터디일자의 폴더에 업로드 해주시기 바랍니다.
 
@@ -43,12 +44,12 @@
 
   - DP(Dynamic Programming)
 
-  - 탐색
+  - 탐색(BFS,DFS,A-star,Binary Search,Binary Search Tree and so on.)
 
   - 수치계산
 
 ### 순서
-기욱(10.11) => 규민(10.18) => 정우(10.25) => 은평(11.1) => 건우(11.8)
+기욱(10.11) => 규민(10.18) => 정우(10.25) => 은평(11.1) => 건우(11.8) => 은평(11.15) => 기욱(11.29)
 
 ---
 
