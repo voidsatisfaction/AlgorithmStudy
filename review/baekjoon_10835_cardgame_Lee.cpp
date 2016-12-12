@@ -3,13 +3,13 @@
 
 using namespace std;
 
-//Àü¿ªº¯¼ö
+//ì „ì—­ë³€ìˆ˜
 int n = 0;
 int A[2000] = {0},
 	B[2000] = {0},
 	dpArr[2000][2000] ;
 
-//ÇÔ¼ö
+//í•¨ìˆ˜
 int dp(int i, int j);
 
 int main(void){
