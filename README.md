@@ -65,11 +65,11 @@
 ## 참고할 만한 좋은 사이트
 - **[ロベールのC++(11,14ver)](http://www7b.biglobe.ne.jp/~robe/cpphtml/) : 베스트 셀러를 공짜로 배울 수 있다. 하지만 다소 오래됨.**
 
-- **[씹어먹는 C++](http://itguru.tistory.com/category/C%2B%2B) : 무려 한글로 재미있는 컨텐츠에 대해서 많이 소개 해 놓은 블로그.
+- **[씹어먹는 C++](http://itguru.tistory.com/category/C%2B%2B) : 무려 한글로 재미있는 컨텐츠에 대해서 많이 소개 해 놓은 블로그.**
 
-- **[Algorithm visualizer](http://algo-visualizer.jasonpark.me/#path=graph_search/bfs/tree)** : 알고리즘을 눈으로 보자!
+- **[Algorithm visualizer](http://algo-visualizer.jasonpark.me/#path=graph_search/bfs/tree) : 알고리즘을 눈으로 보자!**
 
-- **[시리즈:수학인듯 과학아닌 공학같은 컴퓨터과학/알고리즘 기초](https://librewiki.net/wiki/%EC%8B%9C%EB%A6%AC%EC%A6%88:%EC%88%98%ED%95%99%EC%9D%B8%EB%93%AF_%EA%B3%BC%ED%95%99%EC%95%84%EB%8B%8C_%EA%B3%B5%ED%95%99%EA%B0%99%EC%9D%80_%EC%BB%B4%ED%93%A8%ED%84%B0%EA%B3%BC%ED%95%99/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98_%EA%B8%B0%EC%B4%88)** : 위키계열의 글은 대개 그렇듯이 읽기 편한 느낌. 재미도있어보인다.
+- **[시리즈:수학인듯 과학아닌 공학같은 컴퓨터과학/알고리즘 기초](https://librewiki.net/wiki/%EC%8B%9C%EB%A6%AC%EC%A6%88:%EC%88%98%ED%95%99%EC%9D%B8%EB%93%AF_%EA%B3%BC%ED%95%99%EC%95%84%EB%8B%8C_%EA%B3%B5%ED%95%99%EA%B0%99%EC%9D%80_%EC%BB%B4%ED%93%A8%ED%84%B0%EA%B3%BC%ED%95%99/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98_%EA%B8%B0%EC%B4%88) : 위키계열의 글은 대개 그렇듯이 읽기 편한 느낌. 재미도있어보인다.**
 
 ---
 
